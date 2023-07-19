@@ -26,6 +26,8 @@ insert into Person (personId, lastName, firstName) values ('1', 'John', 'Doe');
 insert into Person (personId, lastName, firstName) values ('2', 'Jack', 'Black');
 insert into Person (personId, lastName, firstName) values ('3', 'Alex', 'Smith');
 insert into Person (personId, lastName, firstName) values ('4', 'Piter', 'Brown');
+insert into Person (personId, lastName, firstName) values ('5', 'Max', 'Power');
 Truncate table Address;
 insert into Address (addressId, personId, city, state) values ('1', '2', 'Dublin', 'Ireland');
 insert into Address (addressId, personId, city, state) values ('2', '4', 'London', 'UK');
+insert into Address (addressId, personId, city, state) values ('3', '5', 'London', 'UK');
