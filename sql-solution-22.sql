@@ -1,0 +1,1 @@
+SELECT capital FROM countries WHERE country LIKE('E%') AND continent LIKE ('Afri%') ORDER BY capital LIMIT 3;
