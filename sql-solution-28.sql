@@ -1,0 +1,1 @@
+SELECT name, surname, age FROM people WHERE age > 20 ORDER BY DESC LIMIT 4;
