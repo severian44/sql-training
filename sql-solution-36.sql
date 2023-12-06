@@ -1,3 +1,3 @@
 SELECT *  
-FROM Employee e
+FROM Employee 
 WHERE name LIKE "F%" AND surname LIKE "K%";
